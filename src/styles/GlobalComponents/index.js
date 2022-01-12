@@ -2,7 +2,6 @@ import styled from 'styled-components'
 export const Update = styled.div`
     @media (max-width:375){
       display:none;
-      display-content: center;
     }
     
 
