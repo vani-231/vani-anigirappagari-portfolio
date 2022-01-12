@@ -6,16 +6,12 @@ import Technologies from '../components/Technologies/Technologies';
 import Timeline from '../components/TimeLine/TimeLine';
 import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
-import { Media } from 'react-media'
+
 const Home = () => {
   return (
     <Layout>
       <Section>
-        <Media query="(min-width:600px)" >
-          {matches => {
-            return matches ? "hello" : "world"
-          }}
-        </Media>
+
         <Hero />
         <BgAnimation />
       </Section>
