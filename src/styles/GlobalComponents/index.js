@@ -10,12 +10,6 @@ export const Section = styled.section`
   position: relative;
   overflow: hidden;
   grid-template-columns: 1fr 1fr;
-
-  
-  @media (max-width:600px){
-    display:flex;
-    flex-direction: column;
-  }
   
 
   @media ${(props) => props.theme.breakpoints.md} {
