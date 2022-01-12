@@ -11,12 +11,10 @@ export const Section = styled.section`
   overflow: hidden;
   grid-template-columns: 1fr 1fr;
 
-  @media (min-width: 375px) {
-     display:flex;
-     flex-direction: column;
-  }
+  
   @media (max-width:600px){
-    display:grid;
+    display:flex;
+    flex-direction: column;
   }
 
   @media ${(props) => props.theme.breakpoints.md} {
