@@ -10,7 +10,7 @@ import { Update } from '../styles/GlobalComponents';
 const Home = () => {
   return (
     <Layout>
-      <Update>
+      <Update grid>
         <Section>
           <Hero />
           <BgAnimation />
