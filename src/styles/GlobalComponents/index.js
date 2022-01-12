@@ -1,4 +1,11 @@
 import styled from 'styled-components'
+export const Update = styled.div`
+    @media (max-width:370){
+      display:flex;
+      flex-direction:column;
+    }
+
+`
 
 export const Section = styled.section`
   display: ${(props) => props.grid ? "grid" : "flex"};

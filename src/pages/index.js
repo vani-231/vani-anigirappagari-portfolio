@@ -6,15 +6,17 @@ import Technologies from '../components/Technologies/Technologies';
 import Timeline from '../components/TimeLine/TimeLine';
 import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
-
+import { Update } from '../styles/GlobalComponents';
 const Home = () => {
   return (
     <Layout>
-      <Section grid>
+      <Update>
+        <Section>
+          <Hero />
+          <BgAnimation />
+        </Section>
+      </Update>
 
-        <Hero />
-        <BgAnimation />
-      </Section>
       <Timeline />
       <Technologies />
       <Projects />
