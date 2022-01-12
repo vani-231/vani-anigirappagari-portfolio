@@ -13,7 +13,7 @@ const Home = () => {
       <Section>
         <Media query="(min-width:600px)" >
           {matches => {
-            return matches ? grid : flex
+            return matches ? flex : grid
           }}
         </Media>
         <Hero />
