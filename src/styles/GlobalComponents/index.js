@@ -16,7 +16,7 @@ export const Section = styled.section`
     display:flex;
     flex-direction: column;
   }
-  @media (max-width:1200px){
+  @media (min-width:600px){
     display:grid
   }
 
