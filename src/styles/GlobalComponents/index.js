@@ -4,9 +4,7 @@ export const Update = styled.div`
       display:flex;
       flex-direction:column;
     }
-    @media(min-width:375){
-      display:grid;
-    }
+    display:grid;
 
 `
 
