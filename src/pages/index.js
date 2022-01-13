@@ -8,31 +8,31 @@ import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
 
 const Home = () => {
-  const Updated = Styled.div`
-    width:70%;
+  const st = {
 
-  `
+    // Adding media querry..
+    '@media (max-width: 380px)': {
+      display: 'none',
+    },
+    '@media (max-width: 1400px)': {
+      display: 'grid',
+      gridTemplateColumns: 'auto auto',
+    },
 
-  // Adding media querry..
-  // '@media (max-width: 380px)': {
-  //   display: 'none',
-  // },
-  // '@media (max-width: 1400px)': {
-  //   display: 'grid',
-  //   gridTemplateColumns: 'auto auto',
-
-
-  // };
+  };
   return (
     <Layout>
 
-      <Updated>
+      <div style={st}>
 
         <Hero />
         <BgAnimation />
 
+      </div>
 
-      </Updated>
+
+
+
       <Timeline />
       <Technologies />
       <Projects />
