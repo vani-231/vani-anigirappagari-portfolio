@@ -8,10 +8,17 @@ import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
 import { Update } from '../styles/GlobalComponents';
 const Home = () => {
+  const st = {
+
+    // Adding media querry..
+    '@media (min-width: 380px)': {
+      display: 'grid',
+    },
+  };
   return (
     <Layout>
       <Update>
-        <Section grid>
+        <Section style={st}>
           <Hero />
           <BgAnimation />
         </Section>
