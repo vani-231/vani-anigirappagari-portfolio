@@ -13,7 +13,7 @@ const Home = () => {
     '@media (max-width: 380px)': {
       display: 'none',
     },
-    '@media (max-width: 600px)': {
+    '@media (max-width: 1400px)': {
       display: 'grid',
       gridTemplateColumns: 'auto auto',
     },
