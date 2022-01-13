@@ -15,6 +15,7 @@ const Home = () => {
     },
     '@media (max-width: 600px)': {
       display: 'grid',
+      gridTemplateColumns: 'auto auto',
     },
 
   };
