@@ -14,7 +14,7 @@ const Home = () => {
       display: 'none',
     },
     '@media (max-width: 600px)': {
-      border: '5px solid red'
+      display: 'grid',
     },
 
   };
