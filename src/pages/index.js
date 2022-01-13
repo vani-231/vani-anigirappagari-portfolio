@@ -8,27 +8,30 @@ import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
 import Radium, { StyleRoot } from 'radium';
 const Home = () => {
-  const st = {
+  const Updated = styled.div`
+    width:70%;
 
-    // Adding media querry..
-    '@media (max-width: 380px)': {
-      display: 'none',
-    },
-    '@media (max-width: 1400px)': {
-      display: 'grid',
-      gridTemplateColumns: 'auto auto',
-    },
+  `
 
-  };
+  // Adding media querry..
+  // '@media (max-width: 380px)': {
+  //   display: 'none',
+  // },
+  // '@media (max-width: 1400px)': {
+  //   display: 'grid',
+  //   gridTemplateColumns: 'auto auto',
+
+
+  // };
   return (
     <Layout>
       <StyleRoot>
-        <div style={st}>
+        <Updated>
 
           <Hero />
           <BgAnimation />
 
-        </div>
+        </Updated>
       </StyleRoot>
 
 
