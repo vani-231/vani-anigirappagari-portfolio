@@ -8,7 +8,7 @@ import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
 
 const Home = () => {
-  const Guddi = Styled.div`
+  const Guddi = styled.div`
       width:700px;
     `;
   return (
