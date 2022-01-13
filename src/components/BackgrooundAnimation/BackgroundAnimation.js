@@ -380,9 +380,9 @@ const BackgroundAnimation = () =>
       top: 100,
       left: 150
     }}>
-      <img src='./images/mypic.jpeg' alt="vani" style={st} style={{
-        display: "flex", borderRadius: "50%"
-      }} />
+      <img src='./images/mypic.jpeg' alt="vani" style={st}
+      // style={{display: "flex", borderRadius: "50%"}} 
+      />
     </div>
   </div>
 );
