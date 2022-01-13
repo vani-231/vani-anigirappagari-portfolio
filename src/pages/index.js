@@ -13,16 +13,15 @@ const Home = () => {
     '@media (max-width: 380px)': {
       display: 'none',
     },
-    // '@media (max-width: 1200px)': {
-    //   display: 'grid',
-    //   gridTemplate: 'auto auto',
-    // },
+    '@media (max-width: 600px)': {
+      display: 'grid',
+    },
 
   };
   return (
     <Layout>
 
-      <Section style={st} grid>
+      <Section style={st}>
         <Hero />
         <BgAnimation />
       </Section>
