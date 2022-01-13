@@ -11,9 +11,13 @@ const Home = () => {
   const st = {
 
     // Adding media querry..
-    '@media (min-width: 380px)': {
+    '@media (max-width: 380px)': {
+      display: 'none',
+    },
+    '@media (max-width: 1500px)': {
       display: 'grid',
     },
+
   };
   return (
     <Layout>
