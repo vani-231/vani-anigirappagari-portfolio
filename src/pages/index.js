@@ -8,7 +8,7 @@ import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
 
 const Home = () => {
-  const Updated = styled.div`
+  const Updated = Styled.div`
     width:70%;
 
   `
