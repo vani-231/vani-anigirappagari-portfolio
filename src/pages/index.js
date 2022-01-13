@@ -27,15 +27,12 @@ const Home = () => {
     <Layout>
 
       <Updated>
-
-        <Hero />
-        <BgAnimation />
+        <Section>
+          <Hero />
+          <BgAnimation />
+        </Section>
 
       </Updated>
-
-
-
-
       <Timeline />
       <Technologies />
       <Projects />
