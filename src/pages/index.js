@@ -14,9 +14,11 @@ const Home = () => {
     <Layout>
 
       <Hyper>
+        <div>
+          <Hero />
+          <BgAnimation />
+        </div>
 
-        <Hero />
-        <BgAnimation />
 
       </Hyper>
 
