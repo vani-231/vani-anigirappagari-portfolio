@@ -1,9 +1,9 @@
 import styled from 'styled-components'
 export const Update = styled.div`
-    @media (max-width:375){
+    @media (max-width:375px){
       display:none;
     }
-    @media(max-width:1500px){
+    @media(max-width:1200px){
       display:grid
     }
     
