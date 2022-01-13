@@ -3,8 +3,8 @@ import React from 'react';
 const st = {
 
   // Adding media querry..
-  '@media (max-width: 500px)': {
-    marginRight: "120px",
+  '@media (max-width: 400px)': {
+    marginRight: "70px",
   },
 };
 
