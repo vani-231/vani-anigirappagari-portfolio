@@ -375,7 +375,7 @@ const BackgroundAnimation = () =>
       left: 150
     }}>
       <img src='./images/mypic.jpeg' alt="vani" style={{
-        display: "flex",margin:"auto", height: "100%", width: "100%", borderRadius: "50%"
+        display: "flex", marginRight: "100px", height: "100%", width: "100%", borderRadius: "50%"
       }} />
     </div>
   </div>
