@@ -1,9 +1,7 @@
 import styled from 'styled-components'
 
 
-export const Hub = styled.section`
-           width:100%;
-`
+
 export const Section = styled.section`
   display: ${(props) => props.grid ? "grid" : "flex"};
   flex-direction: ${(props) => props.row ? "row" : "column"};
@@ -30,10 +28,7 @@ export const Section = styled.section`
 
   
 
-  @media (max-width: 1400px): {
-    display: grid;
-    grid-template-columns:auto auto;
-  }
+  
 `
 
 export const SectionTitle = styled.h2`
