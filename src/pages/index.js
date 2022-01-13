@@ -5,30 +5,20 @@ import Projects from '../components/Projects/Projects';
 import Technologies from '../components/Technologies/Technologies';
 import Timeline from '../components/TimeLine/TimeLine';
 import { Layout } from '../layout/Layout';
-import { Section } from '../styles/GlobalComponents';
+import { Hyper } from '../styles/GlobalComponents';
 
 const Home = () => {
-  const st = {
-    '@media (max-width: 1400px)': {
-      display: 'grid',
-      gridTemplateColumns: 'auto auto',
-    },
-
-    '@media (max-width: 380px)': {
-      display: 'none',
-    },
 
 
-  };
   return (
     <Layout>
 
-      <div style={st}>
+      <Hyper>
 
         <Hero />
         <BgAnimation />
 
-      </div>
+      </Hyper>
 
 
 

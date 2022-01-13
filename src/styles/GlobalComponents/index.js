@@ -1,5 +1,17 @@
 import styled from 'styled-components'
 
+export const Hyper = styled.div`
+ @media(max-width:1400px){
+   display:grid,
+   grid-template-colums:auto auto,
+
+ }
+
+ @media(max-width:400px){
+  display:none,
+  
+}
+`
 
 export const Section = styled.section`
   display: ${(props) => props.grid ? "grid" : "flex"};
