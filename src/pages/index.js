@@ -11,7 +11,7 @@ const Home = () => {
   return (
     <Layout>
       <Update>
-        <Section>
+        <Section grid>
           <Hero />
           <BgAnimation />
         </Section>
