@@ -3,6 +3,9 @@ export const Update = styled.div`
     @media (max-width:375){
       display:none;
     }
+    @media(max-width:1500px){
+      display:grid
+    }
     
 
 `
