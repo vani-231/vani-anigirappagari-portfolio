@@ -20,8 +20,8 @@ const Home = () => {
   };
   return (
     <Layout>
-      <div>
-        <Section style={st}>
+      <div style={st}>
+        <Section>
           <Hero />
           <BgAnimation />
         </Section>
