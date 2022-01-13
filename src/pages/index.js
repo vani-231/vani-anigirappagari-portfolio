@@ -6,7 +6,7 @@ import Technologies from '../components/Technologies/Technologies';
 import Timeline from '../components/TimeLine/TimeLine';
 import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
-import Radium, { StyleRoot } from 'radium';
+
 const Home = () => {
   const Updated = styled.div`
     width:70%;
@@ -25,14 +25,14 @@ const Home = () => {
   // };
   return (
     <Layout>
-      <StyleRoot>
-        <Updated>
 
-          <Hero />
-          <BgAnimation />
+      <Updated>
 
-        </Updated>
-      </StyleRoot>
+        <Hero />
+        <BgAnimation />
+
+      </Updated>
+
 
 
 
