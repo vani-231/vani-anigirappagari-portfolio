@@ -10,7 +10,7 @@ import { Section } from '../styles/GlobalComponents';
 const Home = () => {
   const Guddi = styled.div`
       width:700px;
-    `;
+    `
   return (
     <Layout>
 
