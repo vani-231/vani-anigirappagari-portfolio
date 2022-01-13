@@ -5,22 +5,21 @@ import Projects from '../components/Projects/Projects';
 import Technologies from '../components/Technologies/Technologies';
 import Timeline from '../components/TimeLine/TimeLine';
 import { Layout } from '../layout/Layout';
-import { Hyper } from '../styles/GlobalComponents';
+import { Section } from '../styles/GlobalComponents';
 
 const Home = () => {
-
-
+  const Guddi = Styled.div`
+      width:700px;
+    `;
   return (
     <Layout>
 
-      <Hyper>
-        <div>
-          <Hero />
-          <BgAnimation />
-        </div>
 
+      <Guddi>
+        <Hero />
+        <BgAnimation />
+      </Guddi>
 
-      </Hyper>
 
 
 

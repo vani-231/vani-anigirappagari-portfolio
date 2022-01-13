@@ -1,9 +1,6 @@
 import styled from 'styled-components'
 
-export const Hyper = styled.div`
-   display:grid,
-   grid-template-columns:auto auto
-`;
+
 
 export const Section = styled.section`
   display: ${(props) => props.grid ? "grid" : "flex"};
