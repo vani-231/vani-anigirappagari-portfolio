@@ -14,8 +14,7 @@ const Home = () => {
       display: 'none',
     },
     '@media (max-width: 600px)': {
-      display: 'flex',
-      flexDirection: 'column',
+      border: '5px solid red'
     },
 
   };
