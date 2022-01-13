@@ -7,21 +7,21 @@ import Timeline from '../components/TimeLine/TimeLine';
 import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
 const Home = () => {
-  const st = {
+  // const st = {
 
-    // Adding media querry..
-    '@media (max-width: 380px)': {
-      display: 'none',
-    },
-    '@media (max-width: 1400px)': {
-      display: 'grid',
-      gridTemplateColumns: 'auto auto',
-    },
+  //   // Adding media querry..
+  //   '@media (max-width: 380px)': {
+  //     display: 'none',
+  //   },
+  //   '@media (max-width: 1400px)': {
+  //     display: 'grid',
+  //     gridTemplateColumns: 'auto auto',
+  //   },
 
-  };
+  // };
   return (
     <Layout>
-      <div style={st}>
+      <div style={{ display: 'grid' }}>
 
         <Hero />
         <BgAnimation />
