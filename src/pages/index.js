@@ -8,17 +8,17 @@ import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
 
 const Home = () => {
-  const Guddi = styled.div`
-      width:700px;
-    `
+
   return (
     <Layout>
-
-
-      <Guddi>
+      <Section>
         <Hero />
         <BgAnimation />
-      </Guddi>
+      </Section>
+
+
+
+
 
 
 
