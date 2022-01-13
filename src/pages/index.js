@@ -13,10 +13,10 @@ const Home = () => {
     '@media (max-width: 380px)': {
       display: 'none',
     },
-    '@media (max-width: 1200px)': {
-      display: 'grid',
-      gridTemplate: 'auto auto',
-    },
+    // '@media (max-width: 1200px)': {
+    //   display: 'grid',
+    //   gridTemplate: 'auto auto',
+    // },
 
   };
   return (
