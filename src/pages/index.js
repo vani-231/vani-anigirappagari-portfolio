@@ -20,11 +20,13 @@ const Home = () => {
   };
   return (
     <Layout>
+      <div>
+        <Section style={st}>
+          <Hero />
+          <BgAnimation />
+        </Section>
+      </div>
 
-      <Section style={st}>
-        <Hero />
-        <BgAnimation />
-      </Section>
 
 
       <Timeline />
