@@ -1,13 +1,5 @@
 import styled from 'styled-components'
-export const Update = styled.div`
-    
-    @media(max-width:1500px){
-      display:grid;
-      grid-template-columns:auto auto;
-    }
-    
 
-`
 
 export const Section = styled.section`
   display: ${(props) => props.grid ? "grid" : "flex"};
