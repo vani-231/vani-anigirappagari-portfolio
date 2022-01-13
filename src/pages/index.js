@@ -9,15 +9,15 @@ import { Section } from '../styles/GlobalComponents';
 
 const Home = () => {
   const st = {
-
-    // Adding media querry..
-    '@media (max-width: 380px)': {
-      display: 'none',
-    },
     '@media (max-width: 1400px)': {
       display: 'grid',
       gridTemplateColumns: 'auto auto',
     },
+
+    '@media (max-width: 380px)': {
+      display: 'none',
+    },
+
 
   };
   return (
