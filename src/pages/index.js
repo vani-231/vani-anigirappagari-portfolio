@@ -22,7 +22,7 @@ const Home = () => {
   return (
     <Layout>
 
-      <Section style={st}>
+      <Section style={st} grid>
         <Hero />
         <BgAnimation />
       </Section>
