@@ -1,12 +1,6 @@
 import React from 'react';
 
-const st = {
 
-  // Adding media querry..
-  '@media (max-width: 400px)': {
-    border: '10px solid green'
-  },
-};
 
 const BackgroundAnimation = () =>
 
@@ -380,9 +374,9 @@ const BackgroundAnimation = () =>
       top: 100,
       left: 150
     }}>
-      <img src='./images/mypic.jpeg' alt="vani" style={st}
-      // style={{display: "flex", borderRadius: "50%"}} 
-      />
+      <img src='./images/mypic.jpeg' alt="vani" style={{
+        display: "flex", height: "100%", width: "100%", borderRadius: "50%"
+      }} />
     </div>
   </div>
 );
