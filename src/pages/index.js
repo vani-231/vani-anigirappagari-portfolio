@@ -21,7 +21,7 @@ const Home = () => {
   // };
   return (
     <Layout>
-      <div style={{ display: 'grid' }}>
+      <div style={{ display: 'grid', gridTemplateColumns: 'auto auto' }}>
 
         <Hero />
         <BgAnimation />
