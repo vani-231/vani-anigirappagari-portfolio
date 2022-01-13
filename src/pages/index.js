@@ -11,7 +11,7 @@ const Home = () => {
 
   return (
     <Layout>
-      <Section gridTemplateColumns="auto auto">
+      <Section grid gridTemplateColumns="auto auto">
         <Hero />
         <BgAnimation />
       </Section>
