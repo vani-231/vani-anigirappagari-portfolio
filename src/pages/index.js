@@ -14,7 +14,7 @@ const Home = () => {
       display: 'none',
     },
     '@media (max-width: 600px)': {
-      display: 'grid',
+      display: 'flex',
     },
 
   };
