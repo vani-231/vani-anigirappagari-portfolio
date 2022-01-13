@@ -32,7 +32,7 @@ export const Section = styled.section`
 
   @media (max-width: 1400px): {
     display: grid;
-    gridTemplateColumns: auto auto;
+    grid-template-columns:auto auto
   }
 `
 
