@@ -26,13 +26,11 @@ export const Section = styled.section`
     flex-direction: column;
   }
 
-  @media (max-width: 380px): {
-    display: none;
-  }
+  
 
   @media (max-width: 1400px): {
     display: grid;
-    grid-template-columns:auto auto
+    grid-template-columns:auto auto;
   }
 `
 
