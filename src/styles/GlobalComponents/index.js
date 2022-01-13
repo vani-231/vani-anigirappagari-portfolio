@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const Hyper = styled.div`
  @media(max-width:1400px){
    display:grid,
-   grid-template-colums:auto auto,
+   grid-template-columns:auto auto,
 
  }
 
