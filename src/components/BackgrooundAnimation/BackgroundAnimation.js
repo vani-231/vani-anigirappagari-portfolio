@@ -4,7 +4,7 @@ const st = {
 
   // Adding media querry..
   '@media (max-width: 500px)': {
-    marginRight: "20px",
+    marginRight: "100px",
   },
 };
 
