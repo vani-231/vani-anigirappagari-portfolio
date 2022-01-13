@@ -1,6 +1,16 @@
 import React from 'react';
 
-const BackgroundAnimation = () => (
+const st = {
+
+  // Adding media querry..
+  '@media (max-width: 500px)': {
+    marginRight: "20px",
+  },
+};
+
+const BackgroundAnimation = () =>
+
+(
   <div style={{ position: "relative" }}>
     <svg
       className="BgAnimation__svg"
@@ -370,7 +380,9 @@ const BackgroundAnimation = () => (
       top: 100,
       left: 150
     }}>
-      <img src='./images/mypic.jpeg' alt="vani" style={{ height: "100%", width: "100%", borderRadius: "50%" }} />
+      <img src='./images/mypic.jpeg' alt="vani" style={st} style={{
+        display: "flex", height: "100%", width: "100%", borderRadius: "50%"
+      }} />
     </div>
   </div>
 );
