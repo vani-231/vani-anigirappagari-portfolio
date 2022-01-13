@@ -15,6 +15,7 @@ const Home = () => {
     },
     '@media (max-width: 600px)': {
       display: 'flex',
+      flexDirection: 'column',
     },
 
   };
