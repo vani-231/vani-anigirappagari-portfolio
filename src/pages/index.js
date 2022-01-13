@@ -22,10 +22,10 @@ const Home = () => {
   return (
     <Layout>
       <div style={st}>
-        <Section>
-          <Hero />
-          <BgAnimation />
-        </Section>
+
+        <Hero />
+        <BgAnimation />
+
       </div>
 
 
