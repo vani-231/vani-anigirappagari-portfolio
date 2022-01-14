@@ -379,10 +379,10 @@ const BackgroundAnimation = () =>
         </linearGradient>
       </defs>
     </svg>
-    {/* <Hey1 grid> */}
+    <Hey1>
 
-    <Im src='./images/mypic.jpeg' alt="vani" />
-    {/* </Hey1> */}
+      <Im src='./images/mypic.jpeg' alt="vani" />
+    </Hey1>
   </div>
 );
 
