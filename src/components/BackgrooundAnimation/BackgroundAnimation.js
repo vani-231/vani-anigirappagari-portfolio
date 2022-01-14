@@ -2,13 +2,19 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Im = styled.img`
-display: flex;
 height: 100%;
 width: 100%;
 border-radius: 50%;
 `
 const Hey1 = styled.div`
-    display: flex;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 250;
+height: 250;
+position: absolute,
+left: 150;
 
 `
 
@@ -373,7 +379,12 @@ const BackgroundAnimation = () =>
         </linearGradient>
       </defs>
     </svg>
-    <Hey1>
+    <Hey1 style={{
+      display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", width: 250,
+      height: 250,
+      position: "absolute",
+      left: 150
+    }}>
 
       <Im src='./images/mypic.jpeg' alt="vani" />
     </Hey1>
