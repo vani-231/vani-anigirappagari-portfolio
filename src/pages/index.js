@@ -11,19 +11,10 @@ const Home = () => {
 
   return (
     <Layout>
-      <Section grid gridTemplateColumns="auto auto">
+      <Section style={{ display: 'grid' }}>
         <Hero />
         <BgAnimation />
       </Section>
-
-
-
-
-
-
-
-
-
       <Timeline />
       <Technologies />
       <Projects />
