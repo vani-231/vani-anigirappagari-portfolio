@@ -6,17 +6,10 @@ height: 100%;
 width: 100%;
 border-radius: 50%;
 `
-// const Hey1 = styled.div`
-// display: flex;
-// flex-direction: column;
-// justify-content: center;
-// align-items: center;
-// width: 250;
-// height: 250;
-// position: absolute,
-// left: 150;
+const Hey1 = styled.div`
 
-// `
+
+`
 
 const BackgroundAnimation = () =>
 
