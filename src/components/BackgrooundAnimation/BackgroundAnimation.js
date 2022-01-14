@@ -384,7 +384,7 @@ const BackgroundAnimation = () =>
       left: 150
     }}>
 
-      <Im src="" />
+
 
       <Im src='./images/mypic.jpeg' alt="vani" />
     </Hey1>
