@@ -2,23 +2,21 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Im = styled.img`
-
 height: 100%;
 width: 100%;
 border-radius: 50%;
 `
-const Hey1 = styled.div`
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-width: 250;
-height: 250;
-position: absolute,
+// const Hey1 = styled.div`
+// display: flex;
+// flex-direction: column;
+// justify-content: center;
+// align-items: center;
+// width: 250;
+// height: 250;
+// position: absolute,
+// left: 150;
 
-left: 150;
-
-`
+// `
 
 const BackgroundAnimation = () =>
 
@@ -381,10 +379,10 @@ const BackgroundAnimation = () =>
         </linearGradient>
       </defs>
     </svg>
-    <Hey1 grid>
+    {/* <Hey1 grid> */}
 
-      <Im src='./images/mypic.jpeg' alt="vani" />
-    </Hey1>
+    <Im src='./images/mypic.jpeg' alt="vani" />
+    {/* </Hey1> */}
   </div>
 );
 
