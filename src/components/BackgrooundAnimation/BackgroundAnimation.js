@@ -7,7 +7,7 @@ width: 100%;
 border-radius: 50%;
 `
 const Hey1 = styled.div`
-
+    margin-bottom:200px;
 
 `
 
