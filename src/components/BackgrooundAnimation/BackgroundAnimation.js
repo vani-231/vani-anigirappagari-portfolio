@@ -6,9 +6,18 @@ display: flex;
 height: 100%;
 width: 100%;
 border-radius: 50%;
-margin-top:100px;
 `
-const Hari = styled.div`
+const Hey1 = styled.div`
+display: "flex",
+flexDirection: "column",
+justifyContent: "center",
+alignItems: "center",
+width: 250,
+height: 250,
+position: "absolute",
+top: 300,
+left: 150
+
 `
 
 const BackgroundAnimation = () =>
@@ -372,19 +381,10 @@ const BackgroundAnimation = () =>
         </linearGradient>
       </defs>
     </svg>
-    <div style={{
-      display: "flex",
-      flexDirection: "column",
-      justifyContent: "center",
-      alignItems: "center",
-      width: 250,
-      height: 250,
-      position: "absolute",
-      top: 300,
-      left: 150
-    }}>
+    <Hey1>
+
       <Im src='./images/mypic.jpeg' alt="vani" />
-    </div>
+    </Hey1>
   </div>
 );
 
