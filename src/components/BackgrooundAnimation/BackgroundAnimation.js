@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Im = styled.img`
-margin-bottom:200px;
+
 height: 100%;
 width: 100%;
 border-radius: 50%;
@@ -381,7 +381,7 @@ const BackgroundAnimation = () =>
         </linearGradient>
       </defs>
     </svg>
-    <Hey1 flex>
+    <Hey1 grid>
 
       <Im src='./images/mypic.jpeg' alt="vani" />
     </Hey1>
