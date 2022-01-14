@@ -377,7 +377,7 @@ const BackgroundAnimation = () =>
       display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", width: 250,
       height: 250,
       position: "absolute",
-
+      top: 100,
       left: 150
     }}>
 
