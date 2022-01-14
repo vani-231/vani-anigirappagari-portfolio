@@ -13,8 +13,8 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center,
-width: 250px,
-height: 250px,
+width: 250,
+height: 250,
 position: absolute,
 top: 100,
 left: 150
