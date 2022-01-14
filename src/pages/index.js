@@ -11,7 +11,7 @@ const Home = () => {
 
   return (
     <Layout>
-      <Section style={{ display: 'grid' }}>
+      <Section style={`@media(max-width:1600px){display:grid}`}>
         <Hero />
         <BgAnimation />
       </Section>
