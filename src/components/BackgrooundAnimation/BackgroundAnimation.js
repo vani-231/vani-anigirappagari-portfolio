@@ -380,7 +380,7 @@ const BackgroundAnimation = () =>
       width: 250,
       height: 250,
       position: "absolute",
-      top: 500,
+      top: 300,
       left: 150
     }}>
       <Im src='./images/mypic.jpeg' alt="vani" />
