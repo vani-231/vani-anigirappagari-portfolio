@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Im = styled.img`
+display: flex;
 height: 100%;
 width: 100%;
 border-radius: 50%;
