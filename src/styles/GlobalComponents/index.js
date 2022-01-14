@@ -24,7 +24,7 @@ export const Section = styled.section`
 
     width: calc(100vw - 32px);
     flex-direction: column;
-    grid-template-row: 1fr 1fr;
+    grid-template-columns: auto auto;
   }
 
   
