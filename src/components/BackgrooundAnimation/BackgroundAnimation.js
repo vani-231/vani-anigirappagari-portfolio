@@ -15,7 +15,7 @@ align-items: center;
 width: 250;
 height: 250;
 position: absolute,
-top: 300;
+
 left: 150;
 
 `
