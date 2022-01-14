@@ -5,9 +5,7 @@ const Im = styled.img`
 height: 100%;
 width: 100%;
 border-radius: 50%;
-@media (max-width: 768px) {
-  background-image: url("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTBrqbIG7utoackbZt26nx3cBeFkB31Ws3boKsLhoN0SrCG-MfA");
-}
+
 `
 const Hey1 = styled.div`
 
