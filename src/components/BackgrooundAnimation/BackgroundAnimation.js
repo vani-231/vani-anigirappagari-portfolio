@@ -6,7 +6,7 @@ height: 100%;
 width: 100%;
 border-radius: 50%;
 @media (max-width: 768px) {
-  background-image: url("./images/mypic.jpeg");
+  background-image: url("mypic.jpeg");
 }
 `
 const Hey1 = styled.div`
