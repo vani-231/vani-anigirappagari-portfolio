@@ -8,6 +8,17 @@ width: 100%;
 border-radius: 50%;
 margin-top:100px;
 `
+const Hari = styled.div`
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center,
+width: 250px,
+height: 250px,
+position: absolute,
+top: 100,
+left: 150
+`
 
 const BackgroundAnimation = () =>
 
@@ -370,19 +381,10 @@ const BackgroundAnimation = () =>
         </linearGradient>
       </defs>
     </svg>
-    {/* <div style={{
-      display: "flex",
-      flexDirection: "column",
-      justifyContent: "center",
-      alignItems: "center",
-      width: 250,
-      height: 250,
-      position: "absolute",
-      top: 100,
-      left: 150
-    }}> */}
-    <Im src='./images/mypic.jpeg' alt="vani" />
-    {/* </div> */}
+    <Hari>
+      <Im src='./images/mypic.jpeg' alt="vani" />
+    </Hari>
+
   </div>
 );
 
