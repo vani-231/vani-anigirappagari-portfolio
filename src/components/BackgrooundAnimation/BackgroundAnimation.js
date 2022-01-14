@@ -5,6 +5,9 @@ const Im = styled.img`
 height: 100%;
 width: 100%;
 border-radius: 50%;
+@media (max-width: 768px) {
+  background-image: url("./images/mypic.jpeg");
+}
 `
 const Hey1 = styled.div`
 
@@ -380,6 +383,8 @@ const BackgroundAnimation = () =>
       top: 100,
       left: 150
     }}>
+
+      <Im src="" />
 
       <Im src='./images/mypic.jpeg' alt="vani" />
     </Hey1>
