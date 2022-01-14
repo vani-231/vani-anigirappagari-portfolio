@@ -23,6 +23,9 @@ export const Section = styled.section`
     padding: ${(props) => props.nopadding ? "0" : "16px 16px 0"} ;
     width: calc(100vw - 32px);
     flex-direction: column;
+    background-image:url(
+      "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSQlL89I1JsIQPfa0AYiEhzdaP9ro-m2RVVHzKXkiciWCKdWicJ"
+    )
   }
 
   
