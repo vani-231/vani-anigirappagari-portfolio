@@ -372,7 +372,7 @@ const BackgroundAnimation = () =>
         </linearGradient>
       </defs>
     </svg>
-    <div style={{
+    <Hey1 style={{
       display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", width: 250,
       height: 250,
       position: "absolute",
@@ -381,7 +381,7 @@ const BackgroundAnimation = () =>
     }}>
 
       <Im src='./images/mypic.jpeg' alt="vani" />
-    </div>
+    </Hey1>
   </div>
 );
 
