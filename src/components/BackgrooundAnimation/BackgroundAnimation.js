@@ -6,7 +6,9 @@ display: flex;
 height: 100%;
 width: 100%;
 border-radius: 50%;
-
+@media (max-width:400px){
+  margin-right:200px;
+}
 `
 
 const BackgroundAnimation = () =>
