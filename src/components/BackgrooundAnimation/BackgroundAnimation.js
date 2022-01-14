@@ -8,15 +8,15 @@ width: 100%;
 border-radius: 50%;
 `
 const Hey1 = styled.div`
-display: "flex",
-flexDirection: "column",
-justifyContent: "center",
-alignItems: "center",
-width: 250,
-height: 250,
-position: "absolute",
-top: 300,
-left: 150
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 250;
+height: 250;
+position: absolute,
+top: 300;
+left: 150;
 
 `
 
