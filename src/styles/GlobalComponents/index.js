@@ -21,8 +21,7 @@ export const Section = styled.section`
 
   @media ${(props) => props.theme.breakpoints.sm} {
     padding: ${(props) => props.nopadding ? "0" : "16px 16px 0"} ;
-    display:grid;
-    width: calc(100vw - 32px);
+    width: calc(200vw - 32px);
     flex-direction: column;
   }
 
