@@ -381,7 +381,7 @@ const BackgroundAnimation = () =>
         </linearGradient>
       </defs>
     </svg>
-    <Hey1>
+    <Hey1 flex>
 
       <Im src='./images/mypic.jpeg' alt="vani" />
     </Hey1>
