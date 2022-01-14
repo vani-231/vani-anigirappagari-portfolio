@@ -13,7 +13,7 @@ const Home = () => {
 
   return (
     <Layout>
-      <Section grid>
+      <Section flex>
         <Hero />
         <BgAnimation />
       </Section>

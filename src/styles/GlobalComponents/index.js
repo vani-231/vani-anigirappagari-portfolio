@@ -170,7 +170,6 @@ export const SecondaryBtn = styled.button`
     width: 100%;
     font-size: 14px;
     line-height: 16px;
-    back-ground: url("https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSQlL89I1JsIQPfa0AYiEhzdaP9ro-m2RVVHzKXkiciWCKdWicJ")
   }
 `
 
