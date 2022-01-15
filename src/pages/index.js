@@ -13,7 +13,13 @@ const Home = () => {
 
   return (
     <Layout>
-      <Section grid>
+      .vani{'{'}
+      @media(max-width:400px){'{'}
+      display:grid;
+      grid-template-columns: 8ch auto;
+      {'}'}
+      {'}'}
+      <Section className='vani'>
         <Hero />
         <BgAnimation />
       </Section>
