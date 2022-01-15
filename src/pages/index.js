@@ -20,7 +20,7 @@ const Home = () => {
 
   return (
     <Layout>
-      <Section grid>
+      <Section>
         <Hey2>
           <Hero />
           <BgAnimation />
