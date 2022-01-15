@@ -13,12 +13,7 @@ const Home = () => {
 
   return (
     <Layout>
-      .vani{'{'}
-      @media(max-width:400px){'{'}
-      display:grid;
-      grid-template-columns: 8ch auto;
-      {'}'}
-      {'}'}
+      <style dangerouslySetInnerHTML={{ __html: " .vani{\n @media(max-width:400px){\n   display:grid;\n   grid-template-columns: 8ch auto;\n }\n \n}\n" }} />
       <Section className='vani'>
         <Hero />
         <BgAnimation />
