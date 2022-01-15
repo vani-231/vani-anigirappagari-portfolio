@@ -8,6 +8,7 @@ border-radius: 50%;
 
 `
 const Hey1 = styled.div`
+ border:5px solid green;
 
 
 
@@ -374,13 +375,15 @@ const BackgroundAnimation = () =>
         </linearGradient>
       </defs>
     </svg>
-    <Hey1 style={{
-      display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", width: 250,
-      height: 250,
-      position: "absolute",
-      top: 100,
-      left: 150
-    }}>
+    <Hey1
+    // style={{
+    //   display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", width: 250,
+    //   height: 250,
+    //   position: "absolute",
+    //   top: 100,
+    //   left: 150
+    // }}
+    >
 
 
 
