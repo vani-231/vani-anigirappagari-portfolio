@@ -8,7 +8,7 @@ align-items: center,
 height: 100%;
 width: 100%;
 border-radius: 50%;
-@media(max-width:400px){
+@media(max-width:490px){
   margin-bottom:60px;
   margin-right:185px;
 }
