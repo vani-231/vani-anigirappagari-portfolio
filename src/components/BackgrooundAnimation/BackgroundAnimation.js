@@ -376,13 +376,13 @@ const BackgroundAnimation = () =>
       </defs>
     </svg>
     <Hey1
-    // style={{
-    //   display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", width: 250,
-    //   height: 250,
-    //   position: "absolute",
-    //   top: 100,
-    //   left: 150
-    // }}
+      style={{
+        display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", width: 250,
+        height: 250,
+        position: "absolute",
+        top: 100,
+        left: 150
+      }}
     >
 
 
