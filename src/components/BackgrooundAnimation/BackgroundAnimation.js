@@ -10,7 +10,7 @@ width: 100%;
 border-radius: 50%;
 @media(max-width:374px){
   margin-bottom:60px;
-  margin-right:170px;
+  margin-right:185px;
 }
 `
 
