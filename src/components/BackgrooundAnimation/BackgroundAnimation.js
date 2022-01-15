@@ -2,9 +2,9 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Im = styled.img`
-border: "4px solid white",
-display: "flex",
-alignItems: "center",
+border: 4px solid white;
+display: flex;
+align-items: center,
 height: 100%;
 width: 100%;
 border-radius: 50%;
