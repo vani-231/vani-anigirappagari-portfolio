@@ -27,13 +27,13 @@ const Home = () => {
 
   return (
     <Layout>
-      <Section>
-        <Hey2>
-          <Hero />
-          <Hey3>
-            <BgAnimation />
-          </Hey3>
-        </Hey2>
+      <Section grid >
+
+        <Hero />
+
+        <BgAnimation />
+
+
       </Section>
       <Timeline />
       <Technologies />
