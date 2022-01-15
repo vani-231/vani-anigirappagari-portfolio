@@ -23,7 +23,9 @@ const Home = () => {
       <Section>
         <Hey2>
           <Hero />
-          <BgAnimation />
+          <Hey2>
+            <BgAnimation />
+          </Hey2>
         </Hey2>
       </Section>
       <Timeline />
