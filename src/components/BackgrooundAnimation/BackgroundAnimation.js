@@ -8,8 +8,7 @@ border-radius: 50%;
 
 `
 const Hey1 = styled.div`
- border:5px solid green;
- margin-top:0px;
+ 
 
 
 

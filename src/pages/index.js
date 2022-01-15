@@ -6,16 +6,25 @@ import Technologies from '../components/Technologies/Technologies';
 import Timeline from '../components/TimeLine/TimeLine';
 import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
+import styled from 'styled-components';
+
+const Hey2 = styled.div`
+ border:5px solid green;
+ margin-top:0px;
 
 
+
+`
 
 const Home = () => {
 
   return (
     <Layout>
       <Section grid>
-        <Hero />
-        <BgAnimation />
+        <Hey2>
+          <Hero />
+          <BgAnimation />
+        </Hey2>
       </Section>
       <Timeline />
       <Technologies />
