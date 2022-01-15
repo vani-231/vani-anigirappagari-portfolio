@@ -26,6 +26,18 @@ export const Section = styled.section`
     
   }
 
+  @media (max-width:380px){
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  @media (max-width:768px){
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+  }
+
   
 
   

@@ -8,32 +8,28 @@ import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
 import styled from 'styled-components';
 
-const Hey2 = styled.div`
- border:5px solid green;
- display:grid;
- 
+// const Hey2 = styled.div`
+//  border:5px solid green;
+//  display:grid;
 
 
 
-`
-const Hey3 = styled.div`
-     border:5px solid yellow;
-     display:flex;
-     flex-direction:column;
-     align-items:center;
-`
+
+// `
+// const Hey3 = styled.div`
+//      border:5px solid yellow;
+//      display:flex;
+//      flex-direction:column;
+//      align-items:center;
+// `
 
 const Home = () => {
 
   return (
     <Layout>
       <Section grid >
-
         <Hero />
-
         <BgAnimation />
-
-
       </Section>
       <Timeline />
       <Technologies />
