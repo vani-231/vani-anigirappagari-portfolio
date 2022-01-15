@@ -16,6 +16,12 @@ const Hey2 = styled.div`
 
 
 `
+const Hey3 = styled.div`
+     border:5px solid yellow;
+     display:flex;
+     flex-direction:column;
+     align-items:center;
+`
 
 const Home = () => {
 
@@ -24,9 +30,9 @@ const Home = () => {
       <Section>
         <Hey2>
           <Hero />
-          <Hey2>
+          <Hey3>
             <BgAnimation />
-          </Hey2>
+          </Hey3>
         </Hey2>
       </Section>
       <Timeline />
