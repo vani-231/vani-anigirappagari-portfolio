@@ -9,7 +9,8 @@ height: 100%;
 width: 100%;
 border-radius: 50%;
 @media(max-width:374px){
-  margin:auto;
+  margin-bottom:50px;
+  margin-right:95px;
 }
 `
 
