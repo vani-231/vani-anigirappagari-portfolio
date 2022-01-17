@@ -5,7 +5,7 @@ export const projects = [
     image: '/images/1.png',
     tags: ['Mongodb', 'ExpressJS', 'Node'],
     source: 'https://github.com/yssambare12/strawberrynetwithbackend.github.io',
-    visit: 'https://strawberrynetclone-xi.vercel.app/',
+    visit: 'https://yssambare12.github.io/strawberrynetwithbackend.github.io/',
     id: 0,
   },
   {
