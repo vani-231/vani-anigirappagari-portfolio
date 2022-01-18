@@ -4,15 +4,16 @@ import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, TagL
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
 import TechIcons from './TechIcons'
+import { SocialIcons } from "../Header/HeaderStyles";
 
 
 const Projects = () => (
   <>
-
+    <SocialIcons />
     <Section nopadding id='projects'>
       <SectionDivider />
       <br />
-      <SectionTitle id='projects' >Projects</SectionTitle>
+      <SectionTitle>Projects</SectionTitle>
 
       <GridContainer>
         {projects.map((project) => (
