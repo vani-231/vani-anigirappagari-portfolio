@@ -7,7 +7,7 @@ import TechIcons from './TechIcons'
 import { SocialIcons } from "../Header/HeaderStyles";
 
 
-const Projects = () => (
+export const Projects = () => (
   <>
 
     <Section nopadding id='projects'>

@@ -4,7 +4,7 @@ import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalCompon
 import { SkillsContainer, SkillsBox, TechTag } from './TechnologiesStyles';
 
 const techStacks = ['HTML', 'CSS', 'JavaScript', 'React', 'Redux', 'Postman', 'Node', 'ExpressJS', 'Mongodb', 'Linux', 'Windows', 'VS code']
-const Technologies = () => (
+export const Technologies = () => (
   <Section id='tech'>
     <SectionDivider />
     <br />
