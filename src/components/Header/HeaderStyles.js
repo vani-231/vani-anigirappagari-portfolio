@@ -20,6 +20,8 @@ export const Container = styled.div`
     grid-column-gap: 0.5rem;
     grid-row-gap: 0.5rem;
     position:fixed;
+    background-color:#2196F3;
+    colour:white;
   }
 `;
 
