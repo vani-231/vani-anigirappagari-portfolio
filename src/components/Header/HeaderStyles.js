@@ -11,9 +11,9 @@ export const Container = styled.div`
   padding-top: 2rem;
   position: -webkit-sticky;
 position: sticky;
-top: 20px;
+top: 0px;
    background-color: black;
-  box-shadow: 10px 5px 5px blue;
+  box-shadow: 10px 5px 5px #0277BD;
   @media ${(props) => props.theme.breakpoints.sm} {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
