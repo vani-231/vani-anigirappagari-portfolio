@@ -12,7 +12,8 @@ export const Container = styled.div`
   position: -webkit-sticky;
   position: sticky;
   top:0px;
-  background: transparent;
+  background: rgb(17, 24, 37);
+   box-shadow: rgb(36, 36, 58) 3px 3px 10px;"
 
   
   
@@ -136,3 +137,7 @@ border-radius: 50px;
     
   }
 `
+
+
+
+
