@@ -26,7 +26,7 @@ import styled from 'styled-components';
 const Home = () => {
 
   return (
-    <Layout style={{ oveverflow: 'scroll' }} >
+    <Layout>
       <Section grid >
         <Hero />
         <BgAnimation />
