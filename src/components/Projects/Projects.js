@@ -4,16 +4,7 @@ import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, TagL
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
 import TechIcons from './TechIcons'
-import {
-  Container,
-  TextContainer,
-  Label,
-  Input,
-  TextArea,
-  FormHeading,
-  Submit,
-  ButtonDiv,
-} from "./ContactStyles";
+import { Container } from "../Header/HeaderStyles";
 const Projects = () => (
   <Container>
     <Section nopadding id='projects'>
