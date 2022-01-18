@@ -11,6 +11,7 @@ export const Container = styled.div`
   padding-top: 2rem;
   position: -webkit-sticky;
   position: sticky;
+  top:50px;
 
   
   
