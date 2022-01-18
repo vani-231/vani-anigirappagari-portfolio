@@ -26,7 +26,7 @@ import styled from 'styled-components';
 const Home = () => {
 
   return (
-    <Layout scroll >
+    <Layout style={{ scrollBehavior: 'smooth' }} >
       <Section grid >
         <Hero />
         <BgAnimation />
