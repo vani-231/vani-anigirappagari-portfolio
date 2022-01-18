@@ -11,7 +11,9 @@ export const Container = styled.div`
   padding-top: 2rem;
   background-color: #rgb(17, 24, 37);
   box-shadow: #rgb(36, 36, 58) 3px 3px 10px;"
-  position:static;
+  position: -webkit-sticky;
+  position: sticky;
+   top: 0px;
   backface-visibility: hidden;
 
 
