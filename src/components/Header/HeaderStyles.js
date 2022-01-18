@@ -9,9 +9,7 @@ export const Container = styled.div`
   grid-column-gap: 2rem;
   padding: 1rem;
   padding-top: 2rem;
-  position:fixed;
-  background-color:#2196F3;
-  colour:white;
+  
   
   @media ${(props) => props.theme.breakpoints.sm} {
     display: grid;
@@ -19,9 +17,6 @@ export const Container = styled.div`
     grid-template-rows: repeat(2, 60px);
     grid-column-gap: 0.5rem;
     grid-row-gap: 0.5rem;
-    position:fixed;
-    background-color:#2196F3;
-    colour:white;
   }
 `;
 
