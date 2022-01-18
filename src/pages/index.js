@@ -26,7 +26,7 @@ import styled from 'styled-components';
 const Home = () => {
 
   return (
-    <Layout>
+    <Layout scroll >
       <Section grid >
         <Hero />
         <BgAnimation />
