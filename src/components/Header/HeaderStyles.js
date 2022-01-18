@@ -9,9 +9,6 @@ export const Container = styled.div`
   grid-column-gap: 2rem;
   padding: 1rem;
   padding-top: 2rem;
-  position: -webkit-sticky;
-  position: sticky;
-  top:0px;
   background-color: #rgb(17, 24, 37);
   box-shadow: #rgb(36, 36, 58) 3px 3px 10px;"
 
