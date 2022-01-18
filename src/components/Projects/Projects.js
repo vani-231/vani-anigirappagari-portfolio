@@ -4,11 +4,11 @@ import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, TagL
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
 import TechIcons from './TechIcons'
-import { Header } from '../Header/Header'
+
 
 const Projects = () => (
   <>
-    <Header></Header>
+
     <Section nopadding id='projects'>
       <SectionDivider />
       <br />
