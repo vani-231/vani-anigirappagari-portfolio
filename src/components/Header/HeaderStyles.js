@@ -12,8 +12,8 @@ export const Container = styled.div`
   position: -webkit-sticky;
   position: sticky;
   top:0px;
-  background: rgb(17, 24, 37);
-   box-shadow: rgb(36, 36, 58) 3px 3px 10px;"
+  background-color: #rgb(17, 24, 37);
+  box-shadow: rgb(36, 36, 58) 3px 3px 10px;"
 
   
   
