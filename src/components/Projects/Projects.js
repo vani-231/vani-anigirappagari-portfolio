@@ -9,7 +9,7 @@ import { SocialIcons } from "../Header/HeaderStyles";
 
 const Projects = () => (
   <>
-    <SocialIcons />
+
     <Section nopadding id='projects'>
       <SectionDivider />
       <br />

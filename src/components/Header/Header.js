@@ -19,7 +19,7 @@ export const Header = () => (
     <Div2>
 
       <li>
-        <Link href='#home'>
+        <Link href='#hero'>
           <NavLink>Home</NavLink>
         </Link>
       </li>
