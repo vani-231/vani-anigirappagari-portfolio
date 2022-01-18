@@ -9,6 +9,9 @@ export const Container = styled.div`
   grid-column-gap: 2rem;
   padding: 1rem;
   padding-top: 2rem;
+  position: -webkit-sticky;
+position: sticky;
+
   
   
   @media ${(props) => props.theme.breakpoints.sm} {
