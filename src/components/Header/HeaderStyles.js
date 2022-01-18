@@ -13,7 +13,7 @@ export const Container = styled.div`
 position: sticky;
 top: 20px;
    background-color: black;
-  box-shadow: 10px 5px 5px red;
+  box-shadow: 10px 5px 5px blue;
   @media ${(props) => props.theme.breakpoints.sm} {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
