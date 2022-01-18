@@ -11,6 +11,7 @@ export const Container = styled.div`
   padding-top: 2rem;
   position:fixed;
   background-color:#2196F3;
+  colour:white;
   
   @media ${(props) => props.theme.breakpoints.sm} {
     display: grid;
