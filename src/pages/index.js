@@ -13,8 +13,8 @@ import styled from 'styled-components';
 const Home = () => {
 
   return (
-    <Layout id='home'>
-      <Section grid >
+    <Layout>
+      <Section grid id='home' >
         <Hero />
         <BgAnimation />
       </Section>
