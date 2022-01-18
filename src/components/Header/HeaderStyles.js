@@ -10,6 +10,7 @@ export const Container = styled.div`
   padding: 1rem;
   padding-top: 2rem;
   position:fixed;
+  background-color:#9E9E9E;
   
   @media ${(props) => props.theme.breakpoints.sm} {
     display: grid;
