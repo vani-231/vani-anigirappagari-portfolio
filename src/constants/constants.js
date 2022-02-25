@@ -16,7 +16,15 @@ export const projects = [
     source: 'https://github.com/vani-231/Asos_Project',
     visit: 'https://asos-project.vercel.app/',
     id: 1,
-  },
+  }, {
+    title: "Koo app Clone",
+    description: "Koo app is a microblogging social media app It is currently being pitched as India’s homegrown alternative to Twitter. We build this clone using ReactJS, MUI, Tailwind, Nodejs, expressJS, mongoDB, mongoose. In this clone there are many functionalities like sign up by otp and real time post update, like, comment, share,Trending, news amongst other functionalities.",
+    image: '',
+    tags: ['React', 'MUI', 'Tailwind', 'expressJS', 'NodeJS', 'mongoDB', 'Mongoose'],
+    source: 'https://github.com/Aakash-Naykude/KooAppClone',
+    visit: 'https://koo-clone-app.vercel.app/',
+    id: 2,
+  }
 
 
 ];
