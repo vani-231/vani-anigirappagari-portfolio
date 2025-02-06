@@ -6,6 +6,11 @@ import { DiCssdeck } from 'react-icons/di';
 
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './HeaderStyles';
 
+const handleClick = (e, section) => {
+  // Custom onClick behavior, e.g., log which section was clicked
+  console.log(`Navigating to ${section}`);
+  // You can add other logic here as needed
+};
 export const Header = () => (
   <Container>
     <Div1>
@@ -19,28 +24,28 @@ export const Header = () => (
     <Div2>
 
       <li>
-        <Link href='#home'>
-          <NavLink>Home</NavLink>
+        <Link href='#home' passHref>
+          <NavLink onClick={(e) => handleClick(e, 'home')}>Home</NavLink>
         </Link>
       </li>
       <li>
-        <Link href='#about'>
-          <NavLink>About</NavLink>
+        <Link href='#about' passHref>
+          <NavLink onClick={(e) => handleClick(e, 'about')}>About</NavLink>
         </Link>
       </li>
       <li>
-        <Link href='#tech'>
-          <NavLink>Skills</NavLink>
+        <Link href='#tech' passHref>
+          <NavLink onClick={(e) => handleClick(e, 'skills')}>Skills</NavLink>
         </Link>
       </li>
       <li>
-        <Link href='#projects'>
-          <NavLink>Projects</NavLink>
+        <Link href='#projects' passHref>
+          <NavLink onClick={(e) => handleClick(e, 'projects')}>Projects</NavLink>
         </Link>
       </li>
       <li>
-        <Link href='#contact'>
-          <NavLink>Contact</NavLink>
+        <Link href='#contact' passHref>
+          <NavLink onClick={(e) => handleClick(e, 'contact')}>Contact</NavLink>
         </Link>
       </li>
     </Div2>

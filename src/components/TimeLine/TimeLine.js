@@ -31,7 +31,7 @@ const Timeline = () => {
       <br />
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        Hello! My name is Vani Anigirappagari from Chittoor, Andra Pradesh. Recent Electronics and Communication graduate with a passion of developing scalable web application and working across the full stack. I have designed the clone of some of the websites using HTML, CSS, JavaScript, Node.js and Mongodb. Curious to learn and apply my skills on a large scale.
+        Hello! I am Vani Anigirappagari from Bangalore, Karnataka. Dynamic Frontend Developer skilled in React.js,JavaScript and responsive design, with a strong foundation in integrating server-side APIs. Proficie in using Generative AI and rapid adaptation to new tech stacks. Committed to optimizing performance and enhancing user experiences across platforms.
       </SectionText>
 
     </Section>
