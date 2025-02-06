@@ -31,7 +31,7 @@ const Timeline = () => {
       <br />
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        Hello! I am Vani Anigirappagari from Bangalore, Karnataka. Dynamic Frontend Developer skilled in React.js,JavaScript and responsive design, with a strong foundation in integrating server-side APIs. Proficie in using Generative AI and rapid adaptation to new tech stacks. Committed to optimizing performance and enhancing user experiences across platforms.
+        Hello! I am Vani Anigirappagari from Bangalore, Karnataka.Dynamic Frontend Developer skilled in React.js,JavaScript and responsive design, with a strong foundation in integrating server-side APIs. Proficie in using Generative AI and rapid adaptation to new tech stacks. Committed to optimizing performance and enhancing user experiences across platforms.
       </SectionText>
 
     </Section>
