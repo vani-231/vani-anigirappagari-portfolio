@@ -22,7 +22,7 @@ export const projects = [
     image: '/images/3.png',
     tags: ['React', 'MUI', 'Tailwind', 'ExpressJS'],
     source: 'https://github.com/Aakash-Naykude/KooAppClone',
-    visit: 'https://koo-clone-app.vercel.app/',
+    visit: 'https://koo-app-clone.netlify.app/',
     id: 2,
   }
 

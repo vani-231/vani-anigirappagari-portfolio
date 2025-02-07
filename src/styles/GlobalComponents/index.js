@@ -59,7 +59,7 @@ export const SectionTitle = styled.h2`
     font-size: ${(props) => props.main ? '56px' : '48px'};
     line-height: ${(props) => props.main ? '56px' : '48px'};
     margin-bottom: 12px;
-    padding: ${(props) => props.main ? '40px 0 12px' : '0'};
+    padding: ${(props) => props.main ? '70px 0 12px' : '0'};
   }
 
   @media ${props => props.theme.breakpoints.sm}{
@@ -68,7 +68,7 @@ export const SectionTitle = styled.h2`
     font-size: ${(props) => props.main ? '28px' : '32px'};
     line-height: ${(props) => props.main ? '32px' : '40px'};
     margin-bottom: 8px;
-    padding: ${(props) => props.main ? '16px 0 8px' : '0'};
+    padding: ${(props) => props.main ? '100px 0 8px' : '0'};
     max-width: 100%;
   }
 `
